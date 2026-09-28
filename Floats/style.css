@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+} div.menu, div.column {
+    background-color: #b2d6ff;
+} div.menu {
+    height: 64px;
+} div.sidebar, div.content, div.column, div.avatar {
+    float: left;
+} div.sidebar {
+    background-color: #f09a9d;
+    height: 256px;
+    width: 128px;
+} div.content {
+    background-color: #f5cf8e;
+    height: 512px;
+    width: 512px;
+} div.footer, div.page, p.comment {
+    overflow: hidden;
+} div.footer {
+    background-color: #d6e9fe;
+    clear: both;
+} div.outer, div.avatar {
+    background-color: #eaedf0;
+} div.page {
+    margin: 0 auto;
+    width: max-content;
+} div.column {
+    height: 128px;
+    margin: 16px 1.15%;
+    width: 31%;
+} div.avatar {
+    border-radius: 24px;
+    height: 48px;
+    margin: 16px;
+    width: 48px;
+} h3.name {
+    margin-top: 24px;
+}

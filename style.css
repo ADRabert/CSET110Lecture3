@@ -1,0 +1,9 @@
+body {
+    background-color: #000;
+    color: #fff;
+} div, p, span {
+    font-size: 64;
+    margin: 0;
+} p {
+    display: inline-block;
+}

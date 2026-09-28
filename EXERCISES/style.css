@@ -1,0 +1,63 @@
+body {
+    background-color: #333;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0 auto;
+    text-align: center;
+} h1#header {
+    font-size: 48;
+    margin-bottom: 0;
+    margin-top: 64px;
+} p#subheader {
+    font-size: 24;
+} button {
+    background-color: unset;
+    border-color: #666;
+    border-style: solid;
+    color: unset;
+    cursor: pointer;
+    font-size: 20;
+    margin: 0 0 64px 0;
+    padding: 16px 32px;
+} button:hover, div.sect1 {
+    background-color: #151515;
+    color: #ccc;
+} div.sect1, p.textblock {
+    padding: 16px 0;
+} p.textblock {
+    margin: 0 16px;
+    width: 256px;
+} div.block {
+    background-color: #070707;
+    height: 192px;
+    margin: 32px 8px;
+    overflow: hidden;
+    width: 256px;
+} div.sect2 {
+    background-color: #000;
+    color: #ccc;
+    padding: 24px 0;
+} p.text {
+    margin: 0 auto 24px auto;
+    width: 50%;
+} div.contact-box {
+    background-color: #2690d4;
+    float: left;
+} p.textblock, div.block, div.footer p, div.about-box {
+    display: inline-block;
+} div.contact-box, div.about-box {
+    height: 256px;
+    width: 50%;
+} div.footer {
+    background-color: #000;
+    height: 96px;
+} div.contact-box p, div.about-box p {
+    margin: 0 32px 32px 32px;
+} div.company {
+    float: left;
+    padding: 20px 0 0 20%;
+} div.creator {
+    float: right;
+    padding: 20px 20% 0 0;
+}
